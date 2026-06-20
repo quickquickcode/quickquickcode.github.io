@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="keywords" content="quickquickcode,个人主页">
+  <meta name="description" content="quickquickcode 的个人主页，分享学习与生活">
+  <meta name="author" content="quickquickcode">
+  <title>quickquickcode | 个人主页</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="bg-animation">
+    <div class="gradient-sphere sphere-1"></div>
+    <div class="gradient-sphere sphere-2"></div>
+    <div class="gradient-sphere sphere-3"></div>
+  </div>
+
+  <main class="container">
+    <!-- 左侧：个人简介 -->
+    <section class="card profile-card">
+      <div class="avatar">
+        <span>Q</span>
+      </div>
+      <h1 class="name">quickquickcode</h1>
+      <p class="slogan">代码很短，梦想很长</p>
+      <div class="divider"></div>
+      <p class="intro">
+        热爱前端与开源，喜欢记录学习过程中的点滴。<br>
+        这里是我的个人主页，欢迎常来坐坐。
+      </p>
+      <div class="social-links">
+        <a href="https://github.com/quickquickcode" target="_blank" class="social-btn github" title="GitHub">
+          <svg viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          <span>GitHub</span>
+        </a>
+        <a href="https://quickquickcode.github.io/blog/" target="_blank" class="social-btn blog" title="博客">
+          <svg viewBox="0 0 24 24"><path d="M4 4h16v16H4V4zm2 2v12h12V6H6zm2 2h8v2H8V8zm0 4h8v2H8v-2zm0 4h5v2H8v-2z"/></svg>
+          <span>博客</span>
+        </a>
+        <a href="mailto:quickquickcode@example.com" class="social-btn email" title="邮箱">
+          <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          <span>邮箱</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- 右侧：作品导航 -->
+    <section class="card works-card">
+      <h2 class="section-title">作品导航</h2>
+      <div class="works-grid">
+        <a href="https://quickquickcode.github.io/blog/" target="_blank" class="work-item">
+          <div class="work-icon">📝</div>
+          <div class="work-info">
+            <h3>技术博客</h3>
+            <p>记录学习心得与技术分享</p>
+          </div>
+        </a>
+        <a href="https://github.com/quickquickcode" target="_blank" class="work-item">
+          <div class="work-icon">💻</div>
+          <div class="work-info">
+            <h3>开源项目</h3>
+            <p>GitHub 上的代码仓库</p>
+          </div>
+        </a>
+        <a href="#" class="work-item coming-soon">
+          <div class="work-icon">🚀</div>
+          <div class="work-info">
+            <h3>敬请期待</h3>
+            <p>更多作品正在路上</p>
+          </div>
+        </a>
+        <a href="#" class="work-item coming-soon">
+          <div class="work-icon">✨</div>
+          <div class="work-info">
+            <h3>敬请期待</h3>
+            <p>更多作品正在路上</p>
+          </div>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <small>已运行 <span id="running-time">0 天 00 小时 00 分钟 00 秒</span></small>
+    <small>&copy; <span id="year">2024</span> quickquickcode</small>
+  </footer>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
